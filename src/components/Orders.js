@@ -91,7 +91,7 @@ const Orders = () => {
         Your Order History
       </h1>
       
-        <ul className='flex flex-col gap-10 w-full'>
+        <ul className='flex flex-col-reverse gap-10 w-full'>
           {orders.map((order) => (
             <li key={order.id} className="order-item bg-white shadow-2xl rounded-xl p-4">
               <p className="font-dancing font-black text-2xl my-3">Order ID: {order.id}</p>
